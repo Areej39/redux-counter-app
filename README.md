@@ -1,16 +1,110 @@
-# React + Vite
+# Redux Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern and responsive Counter Application built with React, Redux Toolkit, Tailwind CSS, and Material UI. The application demonstrates state management using Redux Toolkit with a clean and interactive user interface.
 
-Currently, two official plugins are available:
+## Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Application Screenshot](./screenshot.png)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Features
 
-## Expanding the Oxlint configuration
+- Increase and decrease the counter
+- Increment the counter by custom values (+5 and +10)
+- Decrement the counter by 5
+- Display counter status (Positive, Negative, or Neutral)
+- Refresh button to reset the application
+- Responsive and modern user interface
+- State management using Redux Toolkit
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+---
+
+## Technologies Used
+
+- React
+- Redux Toolkit
+- React Redux
+- Tailwind CSS
+- Material UI
+- Heroicons
+- Lucide React
+- Vite
+
+---
+
+## Project Structure
+
+```text
+redux-counter-app/
+│
+├── public/
+│
+├── src/
+│   ├── assets/
+│   ├── utils/
+│   │   └── counter/
+│   │       └── counterSlice.js
+│   ├── App.jsx
+│   ├── index.css
+│   ├── main.jsx
+│   └── store.js
+│
+├── .gitignore
+├── .oxlintrc.json
+├── index.html
+├── package.json
+├── package-lock.json
+├── README.md
+├── screenshot.png
+└── vite.config.js
+```
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Areej39/redux-counter-app.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd redux-counter-app
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## Dependencies
+
+- React
+- Redux Toolkit
+- React Redux
+- Tailwind CSS
+- Material UI
+- Heroicons
+- Lucide React
+- Vite
+
+---
+
+## Author
+
+**Areej Fatima**
+
+GitHub: https://github.com/Areej39
