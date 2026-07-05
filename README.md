@@ -108,3 +108,9 @@ npm run dev
 **Areej Fatima**
 
 GitHub: https://github.com/Areej39
+
+---
+
+## Live Demo
+
+https://redux-counter-app-areej39.netlify.app/
